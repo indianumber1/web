@@ -5,13 +5,26 @@ import pandas as pd
 
 # --- 1. 페이지 기본 설정 ---
 st.set_page_config(
-    page_title="Streamlit 마법 교실",
+    page_title="개추요...",
     page_icon="🔮",
     layout="wide"
 )
 
 # --- 2. 페이지 타이틀 ---
-st.title("Streamlit 마법 교실 🔮")
+st.title("Streamlit 아모띠포지토리(저장소)에 streamlit_app.py 만들고 다음 내용 복붙해서 집어넣기
+
+import streamlit as st
+import pandas as pd
+
+# --- 1. 페이지 기본 설정 ---
+st.set_page_config(
+    page_title="개추요...",
+    page_icon="🔮",
+    layout="wide"
+)
+
+# --- 2. 페이지 타이틀 ---
+st.title("Streamlit 아모띠 🔮")
 st.subheader("HTML/CSS를 활용해 멋진 효과를 만들어 봐요!")
 st.markdown("---") # 구분선
 
@@ -196,7 +209,7 @@ with col1:
 
 with col2:
     st.write("유튜브 동영상 예제")
-    st.video("https://www.youtube.com/watch?v=B2iAodr0fOo")
+    st.video("https://www.youtube.com/shorts/Hq2kKAISIgo")
 
 # --- 10. 마무리 ---
 st.markdown("---")
